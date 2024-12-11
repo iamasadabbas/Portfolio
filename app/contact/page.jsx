@@ -20,24 +20,24 @@ const info=[
   {
     icon:<FaPhoneAlt/>,
     title:"phone",
-    description:"+123456789"
+    description:"+923258514512"
   },
   {
     icon:<FaEnvelope/>,
     title:"Email",
-    description:"youremail@gmail.com"
+    description:"asadabbasofficial5@gmail.com"
   },
   {
     icon:<FaMapMarkerAlt/>,
     title:"Address",
-    description:"code ferenetics pak tower range road"
+    description:"Committee Chowk Dhoke Elahi Baksh, Rawalpindi, Punjab 46000"
   }
 ]
 
 const Contact = () => {
   return (
     <motion.section initial={{opacity: 0}}
-    animate={{opacity: 1, translition:{delay:2.4, duration:0.4, ease:"easeIn"}}} className="py-6">
+    animate={{opacity: 1, transition:{delay:2.4, duration:0.4, ease:"easeIn"}}} className="py-6">
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row gap-[30px]">
           <div className="xl:w-[54%] order-2 xl:order-none">

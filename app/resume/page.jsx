@@ -29,10 +29,10 @@ const about={
     }, 
     {
       fieldName:"Experience",
-      fieldValue:"12+ Years"
+      fieldValue:"6 Months",
     }, 
     {
-      fieldName:"skype",
+      fieldName:"linkedIn",
       fieldValue:"iamasadabbas"
     }, 
     {
@@ -41,7 +41,7 @@ const about={
     }, 
     {
       fieldName:"Email",
-      fieldValue:"asadabbasoffical05@gmail.com"
+      fieldValue:"asadabbasofficial5@gmail.com"
     }, 
     {
       fieldName:"Freelance",
@@ -54,7 +54,7 @@ const about={
   ]
 }
 
-const experience ={
+const experience = {
     icon:"/assets/resume/badge.svg",
     title:"My experience",
     description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed vel ipsum et dui consectetur auctor. Sed consectetur libero",

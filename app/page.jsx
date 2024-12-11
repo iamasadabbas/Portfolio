@@ -16,16 +16,16 @@ const Home =()=>{
             <p className="max-w-[500px] mb-9 text-white/80">Crafting seamless, responsive, and captivating web experiences with modern tools and innovative design.</p>
 
             <div className="flex flex-col xl:flex-row items-center gap-8">
+            <a href="/Asad_Abbas.pdf" download="My_CV.pdf">
               <Button
-              variant="outline"
-              size="lg"
-              className="uppercase flex items-center gap-2 rounded-full"
+                variant="outline"
+                size="lg"
+                className="uppercase flex items-center gap-2 rounded-full"
               >
-                <span>
-                  Download CV
-                </span>
-                <FiDownload className="text-xl"/>
+                <span>Download CV</span>
+                <FiDownload className="text-xl" />
               </Button>
+            </a>
               <div className="mb-8 xl:mb-0">
                 <Social 
                 containerStyles="flex gap-6"
