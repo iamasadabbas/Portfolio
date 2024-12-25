@@ -16,7 +16,7 @@ const Home =()=>{
             <p className="max-w-[500px] mb-9 text-white/80">Crafting seamless, responsive, and captivating web experiences with modern tools and innovative design.</p>
 
             <div className="flex flex-col xl:flex-row items-center gap-8">
-            <a href="/Asad_Abbas.pdf" download="My_CV.pdf">
+            <a href="/Asad_Abbas.pdf" download="Asad_Abbas.pdf">
               <Button
                 variant="outline"
                 size="lg"

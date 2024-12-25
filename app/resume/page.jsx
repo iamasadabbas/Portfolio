@@ -5,11 +5,11 @@ import {
   FaCss3,
   FaJs,
   FaReact,
-  FaFigma,
-  FaNodeJs
+  FaNodeJs,
+  FaBootstrap
 } from "react-icons/fa"
 
-import {SiTailwindcss, SiNextdotjs} from "react-icons/si"
+import {SiTailwindcss, SiNextdotjs, SiExpress, SiMongodb, SiRedux, SiVuedotjs, SiMui, SiVuetify} from "react-icons/si"
 import {Tabs, TabsContent, TabsList, TabsTrigger} from "../../components/ui/tabs"
 import {Tooltip, TooltipContent, TooltipProvider, TooltipTrigger} from "../../components/ui/tooltip"
 import {ScrollArea} from "../../components/ui/scroll-area"
@@ -55,127 +55,121 @@ const about={
 }
 
 const experience = {
-    icon:"/assets/resume/badge.svg",
-    title:"My experience",
-    description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed vel ipsum et dui consectetur auctor. Sed consectetur libero",
-    items:[
-      {
-        company: "Tech Solutions Inc.",
-        position: "Full Stack Developer",
-        duration: "2022 - Present"
-      },
-      {
-        company: "Web Design studio",
-        position: "Frontend Developer Intern",
-        duration: "summer - 2021"
-      },
-      {
-        company: "E-commerce startup",
-        position: "Freelance Web Developer",
-        duration: "2021 - 2022"
-      },
-      {
-        company: "Software development firm",
-        position: "Junior developer",
-        duration: "2018 - 2019"
-      },
-      {
-        company: "E-commerce startup",
-        position: "Freelance Web Developer",
-        duration: "2021 - 2022"
-      },
-      {
-        company: "Software development firm",
-        position: "Junior developer",
-        duration: "2018 - 2019"
-      }
-    ]
-
+  icon: "/assets/resume/badge.svg",
+  title: "My Experience",
+  description: "Over a year of experience in web development, ranging from freelance projects to professional roles in software companies.",
+  items: [
+    {
+      company: "Code Frenetics",
+      position: "Junior Full Stack Developer",
+      duration: "Aug 2024 - Present"
+    },
+    {
+      company: "Freelance Projects",
+      position: "Full Stack Developer",
+      duration: "Sep 2023 - Aug 2024"
+    }
+  ]
 }
 
-const education ={
-  icon:"/assets/resume/cap.svg",
-  title:"My education",
-  description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed vel ipsum et dui consectetur auctor. Sed consectetur libero",
-  items:[
+
+const education = {
+  icon: "/assets/resume/cap.svg",
+  title: "My Education",
+  description: "A blend of academic achievements and self-paced learning through online courses and workshops.",
+  items: [
     {
-      institution: "Online Course Platform",
-      degree: "Full Stack web Development bootcamp",
+      institution: "Arid Agriculture University Rawalpindi",
+      degree: "BS in Computer Science (BSCS)",
+      duration: "2020 - 2024"
+    },
+    {
+      institution: "College",
+      degree: "Intermediate in Pre-Engineering",
+      duration: "2018 - 2020"
+    },
+    {
+      institution: "Udemy",
+      degree: "Vue.js Course",
+      duration: "2024"
+    },
+    {
+      institution: "Coursera",
+      degree: "React Development Courses",
       duration: "2023"
     },
     {
-      institution: "Codecademy",
-      degree: "Front-end track",
-      duration: "2022"
-    },
-    {
-      institution: "Online Course",
-      degree: "Programming course",
-      duration: "2022"
-    },
-    {
-      institution: "Online Course",
-      degree: "Programming course",
-      duration: "2022"
-    },
-    {
-      institution: "Online Course",
-      degree: "Programming course",
-      duration: "2022"
-    },
-    {
-      institution: "Online Course",
-      degree: "Programming course",
-      duration: "2022"
-    },
-    {
-      institution: "Online Course",
-      degree: "Programming course",
-      duration: "2022"
-    },
+      institution: "Workshops",
+      degree: "Various Tech and Web Development Workshops",
+      duration: "2022 - Present"
+    }
   ]
-
 }
+
 
 const skills = {
-  title:"My skills",
-  description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel ipsum et dui consectetur auctor. Sed consectetur libero",
-  skillList:[
-
+  title: "My Skills",
+  description: "A versatile skill set with a strong focus on modern web development frameworks, libraries, and tools.",
+  skillList: [
     {
-      icon:<FaHtml5/>,
-      name:"HTML5"
+      icon: <FaHtml5 />,
+      name: "HTML5"
     },
     {
-      icon:<FaCss3/>,
-      name:"CSS 3"
+      icon: <FaCss3 />,
+      name: "CSS3"
     },
     {
-      icon:<FaJs/>,
-      name:"JavaScript"
+      icon: <FaJs />,
+      name: "JavaScript"
     },
     {
-      icon:<FaReact/>,
-      name:"React.js"
+      icon: <FaReact />,
+      name: "React.js"
     },
     {
-      icon:<SiNextdotjs/>,
-      name:"Next.js"
+      icon: <SiNextdotjs />,
+      name: "Next.js"
     },
     {
-      icon:<SiTailwindcss/>,
-      name:"Tailwind.css"
+      icon: <FaNodeJs />,
+      name: "Node.js"
     },
     {
-      icon:<FaNodeJs/>,
-      name:"Node.js"
+      icon: <SiExpress />,
+      name: "Express.js"
     },
     {
-      icon:<FaFigma/>,
-      name:"Figma"
+      icon: <SiMongodb />,
+      name: "MongoDB"
     },
+    {
+      icon: <SiVuedotjs />,
+      name: "Vue.js"
+    },
+    {
+      icon: <SiRedux />,
+      name: "Redux"
+    },
+    {
+      icon: <SiTailwindcss />,
+      name: "Tailwind CSS"
+    },
+    {
+      icon: <SiMui />,
+      name: "Material-UI (MUI)"
+    },
+    {
+      icon: <SiVuetify />,
+      name: "Vuetify"
+    },
+    {
+      icon: <FaBootstrap />,
+      name: "Bootstrap"
+    }
   ]
 }
+
 
 
 const Resume = () => {

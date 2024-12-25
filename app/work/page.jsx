@@ -10,38 +10,83 @@ import Link from "next/link"
 import Image from "next/image"
 import WorkLSliderBtns from "../../components/WorkSliderBtns"
 
-const projects=[
+const projects = [
   {
-    num:"01",
-    category:"frontend",
-    title:"Project Title 1",
-    description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    stack:[{name:"Html 5"},{name:"Css 3 "},{name:"Javsscript"}],
-    image:"/assets/work/thumb1.png",
-    live:"",
-    github:""
+    num: "01",
+    category: "frontend",
+    title: "Supply Stream",
+    description: "A platform for supply chain management using React, Node, Express, and MongoDB.",
+    stack: [
+      { name: "React" },
+      { name: "Node.js" },
+      { name: "Express" },
+      { name: "MongoDB" }
+    ],
+    image: "/assets/work/thumb1.png",  // You can replace this with the actual image URL
+    live: "",
+    github: "https://github.com/iamasadabbas/SupplyStream-Frontend"
   },
   {
-    num:"02",
-    category:"full stack",
-    title:"Project Title 2",
-    description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    stack:[{name:"NEXT.js"},{name:"Node.js"},{name:"Express"}],
-    image:"/assets/work/thumb2.png",
-    live:"",
-    github:""
+    num: "02",
+    category: "full stack",
+    title: "E commerce WebApp",
+    description: "A full-fledged eCommerce platform using React, Node, Express, and MongoDB.",
+    stack: [
+      { name: "React" },
+      { name: "Node.js" },
+      { name: "Express" },
+      { name: "MongoDB" }
+    ],
+    image: "/assets/work/thumb2.png",  // You can replace this with the actual image URL
+    live: "",
+    github: "https://github.com/iamasadabbas/Ecommerce"
   },
   {
-    num:"03",
-    category:"frontend",
-    title:"Project Title 3",
-    description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    stack:[{name:"NEXT.JS"},{name:"Tailwind.css"}],
-    image:"/assets/work/thumb3.png",
-    live:"",
-    github:""
+    num: "03",
+    category: "frontend",
+    title: "Coach Finder",
+    description: "A platform to find coaches using Vue.js and Firebase.",
+    stack: [
+      { name: "Vue.js" },
+      { name: "Firebase" }
+    ],
+    image: "/assets/work/thumb3.png",  // You can replace this with the actual image URL
+    live: "",
+    github: "https://github.com/iamasadabbas/coachFinder"
+  },
+  {
+    num: "04",
+    category: "full stack",
+    title: "Book Reading App",
+    description: "A backend API for book reading app using React, Node, Express, and MongoDB.",
+    stack: [
+      { name: "React" },
+      { name: "Node.js" },
+      { name: "Express" },
+      { name: "MongoDB" }
+    ],
+    image: "/assets/work/thumb4.png",  // You can replace this with the actual image URL
+    live: "",
+    github: "https://github.com/iamasadabbas/BookReadingApp-Backend"
+  },
+  {
+    num: "05",
+    category: "full stack",
+    title: "CMS(Content Management System)",
+    description: "Content Management System using React, Node, Express, MongoDB, and Material-UI.",
+    stack: [
+      { name: "React" },
+      { name: "Node.js" },
+      { name: "Express" },
+      { name: "MongoDB" },
+      { name: "Material-UI" }
+    ],
+    image: "/assets/work/thumb5.png",  // You can replace this with the actual image URL
+    live: "",
+    github: ""  // Add the GitHub link if available
   }
-]
+];
+
 
 const Work = () => {
 
@@ -64,7 +109,7 @@ const Work = () => {
             <div className="text-8xl leading-none font-extrabold text-transparent text-outline">
               {project.num}
             </div>
-            <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">{project.category} project</h2>
+            <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">{project.title}</h2>
             <p className="text-white/60">{project.description}</p>
             <ul className="flex gap-4">
               {project.stack.map((item, index)=>{

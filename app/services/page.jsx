@@ -8,27 +8,23 @@ const services=[
 
   {
     num:"01",
-    title:"web development",
-    description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis ipsum nec felis consectetur pretium.",
-    href:""
+    title:"Full-Stack Web Developmen",
+    description:"Build responsive and scalable web applications using the MERN stack or Vue.js.",
   },
   {
     num:"02",
-    title:"UI/UX design",
-    description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis ipsum nec felis consectetur pretium.",
-    href:""
+    title:"API Development and Integration",
+    description:"Develop robust APIs and integrate third-party services for seamless functionality.",
   },
   {
     num:"03",
-    title:"logo design",
-    description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis ipsum nec felis consectetur pretium.",
-    href:""
+    title:"Frontend Development",
+    description:"Design intuitive and visually appealing interfaces using React.js or Vue.js.",
   },
   {
     num:"04",
-    title:"SEO",
-    description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis ipsum nec felis consectetur pretium.",
-    href:""
+    title:"Maintenance and Optimization",
+    description:"Provide reliable support and performance improvements for existing web applications.",
   }
 ]
 const Services = () => {
@@ -50,9 +46,9 @@ const Services = () => {
                   <div className="text-5xl font-extrabold text-outline text-transparent group-hover:text-outline-hover transition-all duration-500">
                     {service.num}
                   </div>
-                  <Link href={service.href} className="w-[60px] h-[60px] rounded-full bg-white group-hover:bg-accent transition-all duration-500 flex justify-center items-center hover:-rotate-45">
+                  <div className="w-[60px] h-[60px] rounded-full bg-white group-hover:bg-accent transition-all duration-500 flex justify-center items-center hover:-rotate-45">
                     <BsArrowDownRight className="text-primary text-3xl"/>
-                  </Link>
+                  </div>
                 </div>
                 <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500">{service.title}</h2>
                 <p className="text-white/60">{service.description}</p>

@@ -38,7 +38,7 @@ const Contact = () => {
   return (
     <motion.section initial={{opacity: 0}}
     animate={{opacity: 1, transition:{delay:2.4, duration:0.4, ease:"easeIn"}}} className="py-6">
-      <div className="container mx-auto">
+      <div className="container mx-auto overflow-hidden">
         <div className="flex flex-col xl:flex-row gap-[30px]">
           <div className="xl:w-[54%] order-2 xl:order-none">
             <form className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
