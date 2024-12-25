@@ -79,7 +79,7 @@ const projects = [
       { name: "Node.js" },
       { name: "Express" },
       { name: "MongoDB" },
-      { name: "Material-UI" }
+      { name: "MUI" }
     ],
     image: "/assets/work/thumb5.png",  // You can replace this with the actual image URL
     live: "",
@@ -122,14 +122,14 @@ const Work = () => {
               <div className="flex items-center gap-4">
                 <Link href={project.live}>
                   <TooltipProvider delayDuration={100}>
-                    <Tooltip>
+                    {/* <Tooltip>
                       <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
                         <BsArrowUpRight className="text-wite text-3xl group-hover:text-accent"/> 
                       </TooltipTrigger>
                       <TooltipContent>
                         <p>Live project</p>
                       </TooltipContent>
-                    </Tooltip>
+                    </Tooltip> */}
                   </TooltipProvider>
                 </Link>
                 <Link href={project.github}>
