@@ -4,6 +4,8 @@ import "./globals.css";
 import Header from "../components/Header";
 import PageTransition from "../components/PageTransition";
 import StairsTransition from "../components/StairsTransition"
+import { SpeedInsights } from '@vercel/speed-insights/next';
+
 
 const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
@@ -26,6 +28,7 @@ export default function RootLayout({ children }) {
         <StairsTransition/>
         <PageTransition>
         {children}
+        <SpeedInsights/>
         </PageTransition>
       </body>
     </html>
