@@ -69,22 +69,22 @@ const projects = [
     live: "",
     github: "https://github.com/iamasadabbas/BookReadingApp-Backend"
   },
-  {
-    num: "05",
-    category: "full stack",
-    title: "CMS(Content Management System)",
-    description: "Content Management System using React, Node, Express, MongoDB, and Material-UI.",
-    stack: [
-      { name: "React" },
-      { name: "Node.js" },
-      { name: "Express" },
-      { name: "MongoDB" },
-      { name: "MUI" }
-    ],
-    image: "/assets/work/thumb5.png",  // You can replace this with the actual image URL
-    live: "",
-    github: ""  // Add the GitHub link if available
-  }
+  // {
+  //   num: "05",
+  //   category: "full stack",
+  //   title: "CMS(Content Management System)",
+  //   description: "Content Management System using React, Node, Express, MongoDB, and Material-UI.",
+  //   stack: [
+  //     { name: "React" },
+  //     { name: "Node.js" },
+  //     { name: "Express" },
+  //     { name: "MongoDB" },
+  //     { name: "MUI" }
+  //   ],
+  //   image: "/assets/work/thumb5.png",  // You can replace this with the actual image URL
+  //   live: "",
+  //   github: ""  // Add the GitHub link if available
+  // }
 ];
 
 
@@ -167,7 +167,7 @@ const Work = () => {
                         src={project.image}
                         className="object-cover"
                         fill
-                        alt=""
+                        alt={project.image}
                         />
                       </div>
                     </div>
