@@ -8,7 +8,7 @@ const services=[
 
   {
     num:"01",
-    title:"Full-Stack Web Developmen",
+    title:"Full-Stack Web Development",
     description:"Build responsive and scalable web applications using the MERN stack or Vue.js.",
   },
   {
