@@ -29,11 +29,11 @@ const about={
     }, 
     {
       fieldName:"Experience",
-      fieldValue:"6 Months",
+      fieldValue:"1+ Year",
     }, 
     {
       fieldName:"linkedIn",
-      fieldValue:"iamasadabbas"
+      fieldValue:"https://www.linkedin.com/in/iamasadabbas"
     }, 
     {
       fieldName:"Nationality",
@@ -62,7 +62,7 @@ const experience = {
     {
       company: "Code Frenetics",
       position: "Junior Full Stack Developer",
-      duration: "Aug 2024 - Present"
+      duration: "Apr 2024 - Present"
     },
     {
       company: "Freelance Projects",
@@ -180,7 +180,7 @@ const Resume = () => {
              opacity:1,
              transition:{ duration:0.4, delay:2.4, ease:"easeIn"}
          }}
-         className="min-h-[80vh] flex items-center py-12 xl:py-0"
+         className=" flex items-center py-12 xl:py-0"
     >
       <div className="container mx-auto">
         <Tabs
