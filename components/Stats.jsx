@@ -1,6 +1,7 @@
 "use client"
 
 import CountUp from "react-countup"
+
 const stats=[
     {
         num:"1",
